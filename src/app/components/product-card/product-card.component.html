@@ -1,0 +1,10 @@
+<div class="card">
+  <div *ngIf="articolo" class="card-body rounded text-center">
+    <h5 class="card-title">{{ articolo.name }}</h5>
+    <p class="card-text">{{ articolo.description }} <br /> <b>{{ articolo.price | currency: 'EUR' }}</b> </p>
+    <div class="card-footer mt-5">
+      <button type="button" class="btn btn-outline-warning m-1" (click)="aggiungi()">Aggiungi al carrello</button>
+      <button type="button" class="btn btn-outline-primary m-1" [routerLink]="['/']">Torna al negozio</button>
+    </div>
+  </div>
+</div>

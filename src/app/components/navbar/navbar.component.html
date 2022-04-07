@@ -1,0 +1,14 @@
+<nav id="navbar" class="navbar navbar-expand navbar-dark bg-dark py-3 mb-5">
+  <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="btn btn-outline-primary m-1" >
+            <a id="casetta" class="nav-link active" aria-current="page" [routerLink]="['/']" routerLinkActive="Active" [routerLinkActiveOptions]="{ exact: true }" >&#8962; <br> Home</a>
+          </li>
+          <li class="btn btn-outline-warning m-1">
+            <a id="carrello" class="nav-link" [routerLink]="['/cart']" routerLinkActive="active" >🛒 <br> Carrello ( {{ lunghezzaCarrello.length }} )</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>

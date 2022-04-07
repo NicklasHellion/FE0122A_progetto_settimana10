@@ -1,0 +1,64 @@
+{
+  "prodotti": [
+    {
+      "id": 1,
+      "name": "Samsung Galaxy S22 Ultra",
+      "price": 1259,
+      "description": "Peso: 228g  / Dimensioni: 163.3 x 77.9 x 8.9 mm / Sistema operativo: Android 12 / Display: 6.8 pollici / Risoluzione: 1440 x 3088 / Processore: Exynos 2200 / RAM: 8 GB / 12 GB / Memoria: 128 GB / 256 GB / 512 GB / 1 TB / Batteria: 5.000 mAh / Fotocamera posteriore: 108MP + 10MP + 10MP + 12MP / Fotocamera frontale: 40 MP"
+    },
+    {
+      "id": 2,
+      "name": "iPhone 13 Pro",
+      "price": 1085,
+      "description": "Peso: 204 g / 240 gDimensioni: 146.7 mm x 71.5 mm x 7.7 mm / 160.8 mm x 78.1 mm x 7.7 mmSistema operativo: iOS 15Display: 6.1 pollici / 6.7 polliciRisoluzione: 1170 x 2532 / 1284 x 2778Processore: A15 BionicRAM: 6 GBMemoria: 128 GB / 256 GB / 512 GB / 1 TBBatteria: 3.095 mAh / 4.352 mAhFotocamera posteriore: 12MP + 12MP + 12MPFotocamera frontale: 12 MP"
+    },
+    {
+      "id": 3,
+      "name": "Samsung Galaxy S21 Ultra",
+      "price": 812.30,
+      "description": "Peso: 227gDimensioni: 165.1 x 75.6 x 8.9 mmSistema operativo: Android 11Display: 6.8 polliciRisoluzione: 1440 x 3200Processore: Exynos 2100RAM: 12 GB / 16 GBMemoria: 128 GB / 256 GB / 512 GBBatteria: 5.000 mAhFotocamera posteriore: 108MP + 10MP + 10MP + 12MPFotocamera frontale: 40 MP"
+    },
+    {
+      "id": 4,
+      "name": "OnePlus 9 Pro.",
+      "price": 715.60,
+      "description": "Peso: 197gDimensioni: 163.2 x 73.6 x 8.7mmSistema operativo: Android 11Display: 6.7 polliciRisoluzione: 1440 x 3216Processore: Snapdragon 888RAM: 8/12 GBMemoria: 128 / 256 GBBatteria: 4500mAhFotocamera posteriore: 48MP + 50MP + 8MP + 2MPFotocamera frontale: 16MP"
+    },
+    {
+      "id": 5,
+      "name": "iPhone 13",
+      "price": 826.32,
+      "description": "Peso: 174 gDimensioni: 146.7 x 71.5 x 7.7 mmSistema operativo: iOS 15Display: 6.1 polliciRisoluzione: 1170 x 2532Processore: A15 BionicRAM: 4 GBMemoria: 128 GB / 256 GB / 512 GBBatteria: Fino a 19 oreFotocamera posteriore: 12MP + 12MPFotocamera frontale: 12MP"
+    },
+    {
+      "id": 6,
+      "name": "Xiaomi Mi 11",
+      "price": 514,
+      "description": "Peso: 196gDimensioni: 164.3 x 74.6 x 8.6mmSistema operativo: Android 11Display: 6.8 polliciRisoluzione: 1440 x 3200Processore: Snapdragon 888RAM: 8 GBMemoria: 128 / 256 GBBatteria: 4.600 mAhFotocamera posteriore: 108MP + 13MP + 5MPFotocamera frontale: 20MP"
+    },
+    {
+      "id": 7,
+      "name": "Samsung Galaxy S21",
+      "price": 609,
+      "description": "Peso: 169g / 200gDimensioni: 151.7 x 71.2 x 7.9 mm / 161.5 x 75.6 x 7.8 mmSistema operativo: Android 11Display: 6.2' / 6.7'Risoluzione: 1080 x 2400Processore: Exynos 2100RAM: 8GBMemoria: 12 8GB / 256 GBBatteria: 4.000 mAh / 4.800 mAhFotocamera posteriore: 12 MP + 64 MP + 12 MPFotocamera frontale: 10 MP"
+    },
+    {
+      "id": 8,
+      "name": "Google Pixel 6",
+      "price": 879,
+      "description": "Peso: 207g / 210gDimensioni: 158.6 x 74.8 x 8.9mm / 163.9 x 75.9 x 8.9mmSistema operativo: Android 12Display: 6.4 pollici / 6.71 polliciRisoluzione: 1080 x 2400 / 1440 x 3120Processore: Google TensorRAM: 8 GB / 12 GBMemoria: 128 / 256 / 512 GBBatteria: 4.614 mAh / 5.003 mAhFotocamera posteriore: 50MP + 12MP / 50MP +48MP + 12MPFotocamera frontale: 8MP / 11.1MP"
+    },
+    {
+      "id": 9,
+      "name": "Oppo find X3 Pro",
+      "price": 765,
+      "description": "Peso: 193gDimensioni: 163.6 x 74 x 8.3mmSistema operativo: Android 11Display: 6.7 polliciRisoluzione: 1440 x 3216Processore: Snapdragon 888RAM: 8 / 12 GBMemoria: 256 GBBatteria: 4.500 mAhFotocamera posteriore: 50MP + 13MP + 50MP + 3MPFotocamera frontale: 32 MP"
+    },
+    {
+      "id": 10,
+      "name": "Samsung Galaxy Note 20 Ultra",
+      "price": 318.27,
+      "description": "Peso: 208g / Dimensioni: 164.8 x 77.2 x 8.1mm / Sistema operativo: Android 10 / Display: 6.9' / Risoluzione: 1440 x 3088 / CPU: Exynos 990 / RAM: 12 GB / Memoria: 128 / 256 / 512 GB / Batteria: 4.500mAh / Fotocamera posteriore: 108MP + 12MP + 12MP / Fotocamera frontale: 10MP"
+    }
+  ]
+}

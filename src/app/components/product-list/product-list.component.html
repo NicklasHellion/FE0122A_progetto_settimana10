@@ -1,0 +1,20 @@
+<div class="d-flex justify-content-evenly 5 mb-10">
+  <div class="row text-center m-5">
+    <div *ngIf="isLoading" class="spinner-grow text-primary" style="width: 25px; height: 25px" role="status"></div>
+    <div *ngIf="isLoading" class="spinner-grow text-warning" style="width: 25px; height: 25px" role="status"></div>
+    <div *ngIf="isLoading" class="spinner-grow text-danger" style="width: 25px; height: 25px" role="status"></div>
+    <h3 id="caricamento" *ngIf="isLoading">Sto caricando...</h3>
+
+    <div class="col-sm-4 5 mb-5 " *ngFor="let articolo of articoliNegozio">
+      <div>
+        <div class="card-body mb-2" id="cardBody">
+          <div class="mt-4">
+            <h4 class="card-title">{{ articolo.name }}</h4>
+            <p class="card-text">A partire da: <b>{{ articolo.price | currency: "EUR" }}</b></p>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary" [routerLink]="['./product-card', articolo]">Dettagli</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,36 @@
+<main>
+  <div class=" card mb-4" *ngFor="let articolo of articoliCarrello">
+    <h3></h3>
+    <div class="card-body">
+      <h5 class="card-title"><b>Prodotto:</b>{{articolo.name }}</h5>
+      <p class="card-text"><b>Descrizione:</b> {{ articolo.description }} <br /><b> <b>Prezzo:</b>{{ articolo.price | currency: 'EUR' }}</b></p>
+      <p>Hai aggiunto il prodotto: {{articolo.id}}</p>
+    </div>
+  </div>
+  <div class="container">
+    <form (ngSubmit)="submit()" #f="ngForm">
+      <div ngModelGroup="userInfo">
+        <div class="form-group">
+
+          <label for="name">Nome</label>
+          <input class="form-control" ngModel name="nome" type="text" required #name="ngModel"/>
+          <p *ngIf="name.invalid">* Questo campo è obbligatorio *</p>
+
+          <label for="surname">Cognome</label>
+          <input class="form-control" ngModel name="cognome" type="text" required #surname="ngModel"/>
+          <p *ngIf="surname.invalid">* Questo campo è obbligatorio *</p>
+
+          <label for="indirizzo">Indirizzo</label>
+          <input class="form-control" ngModel name="indirizzo" type="text" required #indirizzo="ngModel"/>
+          <p *ngIf="indirizzo.invalid">* Questo campo è obbligatorio *</p>
+
+          <label for="password">Password</label>
+          <input class="form-control" ngModel name="password" type="password" required #password="ngModel"/>
+          <p *ngIf="password.invalid">* Questo campo è obbligatorio *</p>
+
+          <input type="submit" [disabled]="f.invalid" value="invia" class="btn btn-primary mt-2"/>
+        </div>
+      </div>
+    </form>
+  </div>
+</main>
